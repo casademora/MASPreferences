@@ -76,7 +76,8 @@ static NSString *const PreferencesKeyForViewBounds (NSString *identifier)
         [[self window] setTitle:self.title];
 
     if ([self.viewControllers count])
-        self.selectedViewController = [self viewControllerForIdentifier:[[NSUserDefaults standardUserDefaults] stringForKey:kMASPreferencesSelectedViewKey]] ?: [self firstViewController];
+        self.selectedViewController = //[self viewControllerForIdentifier:[[NSUserDefaults standardUserDefaults] stringForKey:kMASPreferencesSelectedViewKey]] ?:
+            [self firstViewController];
 
     NSString *origin = [[NSUserDefaults standardUserDefaults] stringForKey:kMASPreferencesFrameTopLeftKey];
     if (origin)
