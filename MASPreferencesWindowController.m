@@ -2,7 +2,7 @@
 
 NSString *const kMASPreferencesWindowControllerDidChangeViewNotification = @"MASPreferencesWindowControllerDidChangeViewNotification";
 
-static NSString *const kMASPreferencesFrameTopLeftKey = @"MASPreferences Frame Top Left";
+NSString *const kMASPreferencesFrameTopLeftKey = @"MASPreferences Frame Top Left";
 static NSString *const kMASPreferencesSelectedViewKey = @"MASPreferences Selected Identifier View";
 
 static NSString *const PreferencesKeyForViewBounds (NSString *identifier)

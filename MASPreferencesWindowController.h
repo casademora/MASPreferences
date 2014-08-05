@@ -10,6 +10,7 @@
 #import "MASPreferencesViewController.h"
 
 extern NSString *const kMASPreferencesWindowControllerDidChangeViewNotification;
+extern NSString *const kMASPreferencesFrameTopLeftKey;
 
 __attribute__((__visibility__("default")))
 #if MAC_OS_X_VERSION_MAX_ALLOWED > MAC_OS_X_VERSION_10_5
